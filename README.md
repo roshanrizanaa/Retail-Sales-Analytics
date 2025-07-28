@@ -1,5 +1,3 @@
-# Retail-Sales-Analytics
-
 # Retail Sales Analytics (SQL Project)
 
 This project analyzes retail sales data using **pure SQL queries**. The goal is to gain useful business insights such as top-selling products, best-performing regions, monthly trends, and sales rep performance.
