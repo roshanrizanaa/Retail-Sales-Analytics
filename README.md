@@ -97,7 +97,7 @@ HAVING transaction_count < 100;
 ### 🔹 Step 5 – Create Visualizations
 -- Tool Used: Power BI
 
---📊 Dashboard Highlights
+-- 📊 Dashboard Highlights
 Insight	Visualization Type
 Total Sales by Region	Bar Chart
 Monthly Sales Trend	Line Chart
@@ -105,14 +105,14 @@ Top 5 Best-Selling Products	Horizontal Bar Chart
 Sales Rep Performance	Column / Pie Chart
 Low-Sales Regions	Colored Bar / Map
 
---🔘 Filters/Slicers Used
+-- 🔘 Filters/Slicers Used
 Region
 
 Product Category
 
 Year
 
---🎨 Dashboard Features
+-- 🎨 Dashboard Features
 Clean and consistent formatting
 
 Interactive visuals with slicers
