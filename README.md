@@ -57,20 +57,20 @@ Explored data types, relationships, and structure of each table.
 
 ### 🔹 Step 4 – Perform Data Analysis (SQL)
 
-## 1. Total Sales by Region
+- 1. Total Sales by Region
 SELECT r.region_name, SUM(s.sale_amount) AS total_sales
 FROM sales s
 JOIN regions r ON s.region_id = r.region_id
 GROUP BY r.region_name
 ORDER BY total_sales DESC;
 
--- 2. Monthly Sales Trend
+- 2. Monthly Sales Trend
 SELECT DATE_FORMAT(s.sale_date, '%Y-%m') AS month, SUM(s.sale_amount) AS monthly_sales
 FROM sales s
 GROUP BY month
 ORDER BY month;
 
--- 3. Top 5 Best-Selling Products
+- 3. Top 5 Best-Selling Products
 SELECT p.product_name, SUM(s.sale_amount) AS revenue
 FROM sales s
 JOIN products p ON s.product_id = p.product_id
@@ -78,14 +78,14 @@ GROUP BY p.product_name
 ORDER BY revenue DESC
 LIMIT 5;
 
--- 4. Sales Rep Performance
+- 4. Sales Rep Performance
 SELECT sr.rep_name, SUM(s.sale_amount) AS total_sales
 FROM sales s
 JOIN sales_reps sr ON s.rep_id = sr.rep_id
 GROUP BY sr.rep_name
 ORDER BY total_sales DESC;
 
--- 5. Regions with Low Sales Activity
+- 5. Regions with Low Sales Activity
 SELECT r.region_name, COUNT(*) AS transaction_count
 FROM sales s
 JOIN regions r ON s.region_id = r.region_id
