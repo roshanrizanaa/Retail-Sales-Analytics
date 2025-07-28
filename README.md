@@ -1,4 +1,4 @@
-# 🛍️ Retail Sales Analytics – SQL & Power BI Project
+# 🛍️ Retail Sales Analytics – SQL & IBM Cognos Project
 
 ## 📌 Objective
 
@@ -100,15 +100,15 @@ HAVING transaction_count < 100;
 ---
 
 ### 🔹 Step 5 – Create Visualizations
--- Tool Used: Power BI
+-- Tool Used: IBM Cognos Analytics
 
 -- 📊 Dashboard Highlights
 Insight	Visualization Type
 Total Sales by Region	Bar Chart
 Monthly Sales Trend	Line Chart
 Top 5 Best-Selling Products	Horizontal Bar Chart
-Sales Rep Performance	Column / Pie Chart
-Low-Sales Regions	Colored Bar / Map
+Sales Rep Performance Pie Chart
+Low-Sales Regions	Colored Bar 
 
 -- 🔘 Filters/Slicers Used
 Region
@@ -124,7 +124,7 @@ Interactive visuals with slicers
 
 Titles, color coding, and labels
 
-Exported as .pbix and optionally as .pdf
+Exported as .pdf
 
 ---
 
@@ -157,7 +157,7 @@ After completing all analysis and visualizations, I organized and uploaded the p
 | `README.md`                   | Full explanation of the project steps, queries, and outcomes    |
 | `sales_analysis.sql`          | SQL scripts for answering key business questions                |
 | `Retail-Sales-SQL-Project.zip`| Dataset used for queries and dashboard                          |
-| `Retail_Sales_Dashboard.pbix` | Interactive dashboard with slicers and visuals                  |
+| `Dashboard.pdf`               | Dashboard with charts                                           |
 
 
 ---
@@ -174,9 +174,9 @@ After completing all analysis and visualizations, I organized and uploaded the p
 ---
 
 ### 🧰 Tools Used
-SQL (MySQL / PostgreSQL)
+SQL (MySQL)
 
-Power BI
+IBM Cognos Analytics
 
 Excel (optional)
 
