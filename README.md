@@ -92,3 +92,47 @@ FROM sales s
 JOIN regions r ON s.region_id = r.region_id
 GROUP BY r.region_name
 HAVING transaction_count < 100;
+
+## 📈 Step 5 – Create Visualizations
+
+**Tool Used:** Power BI
+
+I created an interactive dashboard to visually represent the insights gathered from SQL queries.
+
+---
+
+### 📊 Dashboard Highlights
+
+| Insight                        | Visualization Type     | Purpose                                        |
+|-------------------------------|-------------------------|------------------------------------------------|
+| Total Sales by Region         | Bar Chart               | Compare regional revenue                       |
+| Monthly Sales Trend           | Line Chart              | Identify seasonal trends                       |
+| Top 5 Best-Selling Products   | Horizontal Bar Chart    | Highlight top revenue-generating products      |
+| Sales Rep Performance         | Column Chart / Pie Chart| Compare sales across reps                      |
+| Low-Sales Regions             | Colored Bar / Map       | Identify underperforming geographic areas      |
+
+---
+
+### 🔘 Filters and Slicers Used
+
+- **Region**
+- **Product Category**
+- **Year (from sale_date)**
+
+These slicers allow users to drill down into specific views of the data and discover targeted insights.
+
+---
+
+### 🎨 Dashboard Features
+
+- Clean layout with intuitive visualizations
+- Title headers and color coding for readability
+- Dynamic visuals that update with slicers
+- Exportable to PDF for reporting
+
+---
+
+### 📁 Dashboard File
+
+The Power BI dashboard file is saved as:
+
