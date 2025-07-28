@@ -56,9 +56,7 @@ Explored data types, relationships, and structure of each table.
 ---
 
 ### 🔹 Step 4 – Perform Data Analysis (SQL)
-sql
-Copy
-Edit
+
 -- 1. Total Sales by Region
 SELECT r.region_name, SUM(s.sale_amount) AS total_sales
 FROM sales s
@@ -97,9 +95,9 @@ HAVING transaction_count < 100;
 ---
 
 ### 🔹 Step 5 – Create Visualizations
-Tool Used: Power BI
+-- Tool Used: Power BI
 
-📊 Dashboard Highlights
+--📊 Dashboard Highlights
 Insight	Visualization Type
 Total Sales by Region	Bar Chart
 Monthly Sales Trend	Line Chart
@@ -107,14 +105,14 @@ Top 5 Best-Selling Products	Horizontal Bar Chart
 Sales Rep Performance	Column / Pie Chart
 Low-Sales Regions	Colored Bar / Map
 
-🔘 Filters/Slicers Used
+--🔘 Filters/Slicers Used
 Region
 
 Product Category
 
 Year
 
-🎨 Dashboard Features
+--🎨 Dashboard Features
 Clean and consistent formatting
 
 Interactive visuals with slicers
@@ -141,9 +139,7 @@ These insights can support strategic decisions in sales, marketing, and staffing
 ---
 
 ### 🔹 Step 7 – Final Files & Project Structure
-vbnet
-Copy
-Edit
+
 Retail-Sales-SQL-Project/
 ├── README.md                       ← This file
 ├── Project_Notes.txt               ← Notes from each step (optional)
@@ -161,7 +157,6 @@ Power BI
 
 Excel (optional)
 
-VS Code or Notepad++ for notes
 
 ---
 
