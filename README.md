@@ -158,8 +158,7 @@ After completing all analysis and visualizations, I organized and uploaded the p
 | `sales_analysis.sql`          | SQL scripts for answering key business questions                |
 | `sales_data_sample.csv`       | Dataset used for queries and dashboard                          |
 | `Retail_Sales_Dashboard.pbix` | Interactive dashboard with slicers and visuals                  |
-| `insights_summary.pdf`        | (Optional) PDF summary of key insights for quick presentation   |
-| `Project_Notes.txt`           | Working notes and documentation of the analysis process         |
+
 
 ---
 
