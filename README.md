@@ -57,7 +57,7 @@ Explored data types, relationships, and structure of each table.
 
 ### 🔹 Step 4 – Perform Data Analysis (SQL)
 
--- 1. Total Sales by Region
+## 1. Total Sales by Region
 SELECT r.region_name, SUM(s.sale_amount) AS total_sales
 FROM sales s
 JOIN regions r ON s.region_id = r.region_id
