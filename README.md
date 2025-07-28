@@ -156,7 +156,7 @@ After completing all analysis and visualizations, I organized and uploaded the p
 |-------------------------------|-----------------------------------------------------------------|
 | `README.md`                   | Full explanation of the project steps, queries, and outcomes    |
 | `sales_analysis.sql`          | SQL scripts for answering key business questions                |
-| `sales_data_sample.csv`       | Dataset used for queries and dashboard                          |
+| `Retail-Sales-SQL-Project.zip`| Dataset used for queries and dashboard                          |
 | `Retail_Sales_Dashboard.pbix` | Interactive dashboard with slicers and visuals                  |
 
 
