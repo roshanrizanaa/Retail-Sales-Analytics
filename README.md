@@ -2,10 +2,18 @@
 
 This project analyzes retail sales data using **pure SQL queries**. The goal is to gain useful business insights such as top-selling products, best-performing regions, monthly trends, and sales rep performance.
 
-## 🔍 Project Objective
-- Help business users understand sales performance across products, reps, and regions
-- Use only SQL to clean, explore, and analyze the data
-- Practice joins, aggregations, filters, subqueries, and date functions
+## 🔍 Define the Objective (Business Problem)
+🎯 Goal: Help the business understand sales performance by analyzing:
+
+Total sales by region
+
+Monthly sales trends
+
+Top 5 best-selling products
+
+Sales rep performance
+
+Underperforming regions
 
 ## 🗂️ Datasets (Tables Used)
 - **sales**: sale_id, product_id, sale_date, sale_amount, region_id, rep_id
