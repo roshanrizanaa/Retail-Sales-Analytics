@@ -138,15 +138,34 @@ These insights can support strategic decisions in sales, marketing, and staffing
 
 ---
 
-### 🔹 Step 7 – Final Files & Project Structure
+### 🔹 Step 7 – Upload to GitHub & Final Presentation
 
-Retail-Sales-SQL-Project/
-├── README.md                       ← This file
-├── Project_Notes.txt               ← Notes from each step (optional)
-├── sales_analysis.sql              ← SQL queries used for analysis
-├── sales_data_sample.csv           ← Sample dataset
-├── Retail_Sales_Dashboard.pbix     ← Power BI dashboard file
-├── insights_summary.pdf            ← Optional PDF of key findings
+After completing all analysis and visualizations, I organized and uploaded the project files to GitHub to showcase the complete workflow of a Data Analyst project.
+
+---
+
+### 📁 Project Folder Structure
+-- 🧾 What Each File Contains
+
+| File                          | Purpose                                                         |
+|-------------------------------|-----------------------------------------------------------------|
+| `README.md`                   | Full explanation of the project steps, queries, and outcomes    |
+| `sales_analysis.sql`          | SQL scripts for answering key business questions                |
+| `sales_data_sample.csv`       | Dataset used for queries and dashboard                          |
+| `Retail_Sales_Dashboard.pbix` | Interactive dashboard with slicers and visuals                  |
+| `insights_summary.pdf`        | (Optional) PDF summary of key insights for quick presentation   |
+| `Project_Notes.txt`           | Working notes and documentation of the analysis process         |
+
+---
+
+### ✅ Status
+
+- [x] Data Cleaning Completed  
+- [x] SQL Queries Executed  
+- [x] Insights Generated  
+- [x] Dashboard Created  
+- [x] Project Documented on GitHub  
+
 
 ---
 
