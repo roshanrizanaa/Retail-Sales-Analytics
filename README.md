@@ -55,7 +55,7 @@ Explored data types, relationships, and structure of each table.
 
 ---
 
-🔹 Step 4 – Perform Data Analysis (SQL)
+### 🔹 Step 4 – Perform Data Analysis (SQL)
 sql
 Copy
 Edit
@@ -93,7 +93,10 @@ FROM sales s
 JOIN regions r ON s.region_id = r.region_id
 GROUP BY r.region_name
 HAVING transaction_count < 100;
-🔹 Step 5 – Create Visualizations
+
+---
+
+### 🔹 Step 5 – Create Visualizations
 Tool Used: Power BI
 
 📊 Dashboard Highlights
@@ -120,7 +123,9 @@ Titles, color coding, and labels
 
 Exported as .pbix and optionally as .pdf
 
-🔹 Step 6 – Insights Summary
+---
+
+### 🔹 Step 6 – Insights Summary
 📈 North region has the highest total sales.
 
 📉 Central region shows the lowest transaction volume.
@@ -133,7 +138,9 @@ Exported as .pbix and optionally as .pdf
 
 These insights can support strategic decisions in sales, marketing, and staffing.
 
-🔹 Step 7 – Final Files & Project Structure
+---
+
+### 🔹 Step 7 – Final Files & Project Structure
 vbnet
 Copy
 Edit
@@ -144,7 +151,10 @@ Retail-Sales-SQL-Project/
 ├── sales_data_sample.csv           ← Sample dataset
 ├── Retail_Sales_Dashboard.pbix     ← Power BI dashboard file
 ├── insights_summary.pdf            ← Optional PDF of key findings
-🧰 Tools Used
+
+---
+
+### 🧰 Tools Used
 SQL (MySQL / PostgreSQL)
 
 Power BI
@@ -153,17 +163,21 @@ Excel (optional)
 
 VS Code or Notepad++ for notes
 
-🏁 Conclusion
+---
+
+### 🏁 Conclusion
 This project follows a complete data analysis lifecycle:
 
 Define → Understand → Clean → Analyze → Visualize → Summarize → Present
 
 It demonstrates the ability to turn raw data into actionable business insights using real-world analyst tools.
 
-📬 Contact
-Author: [Your Name]
-Email: [your.email@example.com]
-LinkedIn: [Your LinkedIn URL]
+---
 
-The Power BI dashboard file is saved as:
+### 📬 Contact
+Author: Roshan Rizana Ayub Khan
+Email: roshanririzana@gmail.com
+LinkedIn: https://www.linkedin.com/in/roshan-rizana/
+
+
 
